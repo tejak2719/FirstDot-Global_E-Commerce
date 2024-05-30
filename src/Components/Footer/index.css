@@ -1,0 +1,18 @@
+.fotter
+{
+    background-color: #fdfeff; /* Light gray background */
+
+}
+.fotter input
+{
+height: 30px;
+width: 220px;
+}
+.social-icons a {
+    text-decoration: none; /* Remove underline */
+    margin: 10px;
+}
+
+.social-icons a:hover {
+    background-color: transparent; /* Remove background color on hover */
+}

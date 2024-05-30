@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container {
+    height: auto;
+    width: 50vw;
+    background-color: #ffffff89;
+    box-shadow: #ffffff89;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the left */
+    padding: 20px;
+}
+
+.header-style {
+    color: black;
+    font-size: 2.5rem; /* Increase the font size */
+    font-weight: bold; /* Match the font weight */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px; /* Add some margin for spacing */
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 10px; /* Decrease the space between form groups */
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 2px; /* Decrease the space between the label and input */
+    font-size: 14px;
+    text-align: left; /* Align text to the left */
+}
+
+input {
+    width: 100%;
+    height: 23px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    width: 100%;
+}
+
+button {
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    background-color: #0b2eca;
+    color: #fffafa;
+    cursor: pointer;
+}

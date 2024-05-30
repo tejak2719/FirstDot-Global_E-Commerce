@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-image: url('https://res.cloudinary.com/drw030kab/image/upload/v1715013144/photo-1494412519320-aa613dfb7738_pf5hmp.avif');
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}

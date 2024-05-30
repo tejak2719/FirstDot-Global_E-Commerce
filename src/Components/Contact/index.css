@@ -1,0 +1,121 @@
+.contact-container {
+    width: 50%;
+    background-color: #ffffff89;
+    box-shadow: #ffffff89;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.name-designation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.submit-wrapper {
+    justify-content: center;
+}
+
+.designation {
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 15%;
+    margin-right: 10px;
+}
+
+.inputCountry {
+    height: 40px;
+    color: rgba(103, 108, 112, 0.939);
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.mobileNumber {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inputPhoneCountryCode {
+    height: 40px;
+    color: rgba(103, 108, 112, 0.939);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 15%;
+    margin-right: 10px;
+}
+
+input, select {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.header-style {
+    color: black;
+    font-size: 2.5rem; /* Increase the font size */
+    font-weight: bold; /* Match the font weight */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px; /* Add some margin for spacing */
+}
+
+button.submit-button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.submit-button:hover {
+    background-color: #003366;
+}
+
+.small-dropdown {
+    width: 15%;
+    margin-right: 10px;
+}
+
+.input-box {
+    width: 85%;
+    height: 40px;
+}
+
+.wide-input-box {
+    width: 100%;
+    height: 40px;
+}

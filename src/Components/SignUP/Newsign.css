@@ -1,0 +1,69 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Ensures the container takes at least 80% of the viewport height */
+    margin-bottom: 50px; /* Adds margin to the bottom to avoid overlapping with the footer */
+}
+
+.container {
+    height: auto;
+    width: 40vw; /* Reduced width */
+    background-color: #ffffff89;
+    box-shadow: #ffffff89;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.container h1 {
+    color: black;
+    font-size: 2.5rem; /* Match the font size */
+    font-weight: bold; /* Match the font weight */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px; /* Add some margin for spacing */
+}
+
+input, select {
+    height: 30px; /* Reduced height */
+    width: 100%; /* Full width of the container */
+    border: 1px solid #ccc; /* Border to match all elements */
+    border-radius: 5px;
+    padding: 5px 10px; /* Padding for a consistent look */
+    margin: 5px 0; /* Reduced margin for spacing */
+    font-size: 14px;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+label {
+    margin: 5px 0; /* Reduced margin */
+    font-size: 16px; /* Increased font size */
+    font-weight: bold; /* Bold font */
+}
+
+.role-selection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.role-selection .role-button {
+    padding: 10px 20px; /* Padding inside the button */
+    margin: 0 10px; /* Margin between buttons */
+    font-size: 16px; /* Font size for the button text */
+    font-weight: bold; /* Bold text */
+    border: 1px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* Background color */
+    color: #007bff; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.role-selection .role-button.active {
+    background-color: #007bff; /* Active background color */
+    color: white; /* Active text color */
+}
