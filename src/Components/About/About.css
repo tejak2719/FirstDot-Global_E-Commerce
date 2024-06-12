@@ -1,3 +1,64 @@
+/* About.css */
 .about-container {
-    /* Styles for the About page */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* Three columns for the smaller sections */
+  grid-template-rows: auto;  /* Automatic row sizing based on content */
+  gap: 20px;  /* Space between grid items */
+  max-width: 1200px;  /* Max width of the grid container */
+  margin: 40px auto;  /* Centering the container horizontally */
+  padding: 20px;  /* Padding around the grid container */
+}
+
+.about-section-large, .about-section {
+  background-color: #f9f9f9;  /* Light grey background */
+  border: 2px solid #004aad;  /* Blue border */
+  border-radius: 15px;  /* Rounded corners */
+  padding: 20px;  /* Padding inside each section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;  /* Pointer cursor on hover */
+  font-weight: bold;  /* Bold font for headers */
+  position: relative;  /* For absolute positioning of child elements */
+}
+
+.about-section-large {
+  grid-column: 1 / -1;  /* Span across all columns for the 'About Us' section */
+  height: 150px;  /* Taller section for main header */
+}
+
+.about-section {
+  height: 120px;  /* Standard height for other sections */
+}
+
+.section-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px;  /* Padding for the text */
+  background-color: rgba(255, 255, 255, 0.9);  /* Semi-transparent white overlay */
+  color: black;  /* Text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  overflow: auto;  /* Scroll bars if content overflows */
+  font-size: 14px;  /* Smaller font size for detail text */
+  font-weight: normal;  /* Normal font weight for detail text */
+  opacity: 0;  /* Initially hidden */
+  transition: opacity 0.3s;  /* Smooth fade-in transition */
+}
+
+.about-section:hover .section-detail,
+.about-section:focus-within .section-detail {
+  opacity: 1;  /* Make detail text visible on hover/focus */
+}
+
+@media (max-width: 768px) {
+  .about-container {
+      grid-template-columns: 1fr;  /* Single column layout on smaller screens */
   }
+}
